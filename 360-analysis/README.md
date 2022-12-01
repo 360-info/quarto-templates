@@ -1,4 +1,4 @@
-# 360analysis Format
+# 360-analysis Format
 
 ## Installing
 
@@ -7,7 +7,6 @@ quarto use template 360-info/quarto-templates/360-analysis
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
-
 
 ## Example
 
