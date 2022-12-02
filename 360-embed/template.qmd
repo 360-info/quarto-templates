@@ -6,7 +6,7 @@ author: James Goldie
 date: last-modified
 ---
 
-{{< include _extensions/360-embed/_popup-buttons.qmd >}}
+{{< include _popup-buttons.qmd >}}
 
 Add your embed content (chart, for example) here!
 
@@ -29,4 +29,4 @@ embed:
 
 This is used to assemble the the embed code that the share dialog presents and that the edshare badge copies to the clipboard. (It's a problem if you want to have several embeds in a project! I'm hoping to shift things to the document metadata.)
 
-{{< include _extensions/360-embed/_popup-dialogs.qmd >}}
+{{< include _popup-dialogs.qmd >}}
