@@ -15,25 +15,13 @@ date: last-modified
 
 {{< include _popup-buttons.qmd >}}
 
-Add your embed content (chart, for example) here!
+Add your embed content (chart, for example) here! The content from here to the just before the final `include` can be deleted.
+
+Before publishing, modify the frontmatter `360embed.url` to reflect the actual publication URL. This will allow the sharing buttons to work correctly.
 
 Two other files you should check out, which are included here above and below:
 
 * [`_popup-dialogs.qmd`](./_popup-dialogs.qmd): this is the content for the share and information dialogs. The share dialog doesn't really need to be touched, but the information dialog is a space to add notes and ancillary explanations of the data.
 * [`_popup-buttons.qmd`](_popup-buttons.qmd): this controls the panel in the top-right. For the most part they do their own thing, but there is a small space for byline and data source that you may want to modify.
-
-This template presently only works in a Quarto project that has a `_variables.yml` of the form:
-
-```yaml
-# alter url for production
-embed:
-  before: |
-    &lt;iframe allow=&quotfullscreen&quot allowfullscreen=&quottrue&quot src=&quot;
-  url: https://example.com/example-embed
-  after: |
-    &quot; title="Embed title here" style="width:100%; height:500px; border:none; background-color: white;" scrolling="no">&lt;/iframe&gt;
-```
-
-This is used to assemble the the embed code that the share dialog presents and that the edshare badge copies to the clipboard. (It's a problem if you want to have several embeds in a project! I'm hoping to shift things to the document metadata.)
 
 {{< include _popup-dialogs.qmd >}}
