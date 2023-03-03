@@ -28,8 +28,9 @@ Copy and paste the following code:
 
 ::: {.embedcode}
 ```
-{{< var newsembed.before >}}{{< var newsembed.url >}}{{< var newsembed.after >}}
+{{< meta 360embed.before >}}{{< meta 360embed.url >}}{{< meta 360embed.after >}}
 ```
+
 :::
 
 This content is subject to [360info's Terms of Use](https://newshub.360info.org/page/terms).
