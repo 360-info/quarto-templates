@@ -28,9 +28,9 @@ Copy and paste the following code:
 
 ::: {.embedcode}
 ```
+{{< meta 360embed.before >}}{{< meta 360embed.url >}}{{< meta 360embed.after >}}
 ```
-{{< var embed.before >}}{{< var embed.url >}}{{< var embed.after >}}
-```
+
 :::
 
 This content is subject to [360info's Terms of Use](https://newshub.360info.org/page/terms).
