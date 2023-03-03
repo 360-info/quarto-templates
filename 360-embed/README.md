@@ -10,4 +10,4 @@ This will install the extension and create an example qmd file that you can use 
 
 ## Example
 
-Here is the source code for a minimal sample embed: [example.qmd](example.qmd).
+Here is the source code for a minimal sample embed: [example.qmd](example.qmd). It has some information on the things you might want to consider customising.
