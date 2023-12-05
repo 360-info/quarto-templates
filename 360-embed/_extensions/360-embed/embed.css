@@ -63,5 +63,5 @@ header#title-block-header {
 
 .embedcode code {
   font-family: "JetBrains Mono", monospace;
-  white-space: normal;
+  white-space: pre-wrap;
 }

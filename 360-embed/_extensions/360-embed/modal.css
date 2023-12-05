@@ -190,6 +190,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
   pointer-events: none;
+  text-transform: uppercase;
 }
 
 #edshare-description {
