@@ -13,41 +13,81 @@ a:visited {
   color: #1481c9;
 }
 
-h1.title,
-p.subtitle {
-  text-transform: uppercase;
+header#title-block-header {
+  
+  color: black;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  
+  /* uncomment following for an inset header */
+  
+  /* position: absolute;
+  margin-right: 160px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  z-index: 1000;  */
+
+}
+
+header#title-block-header h1,
+header#title-block-header p {
   margin-block-start: 0;
 }
 
-h1.title {
+header#title-block-header h1 {
+  text-transform: uppercase;
   font-weight: 900;
-  color: black;
   margin-block-end: 0.2em;
 }
 
-p.subtitle {
-  font-weight: 700;
+header#title-block-header p {
   margin-block-end: 0;
 }
 
 
-header#title-block-header {
-  margin-block-end: 0.5rem;
-  z-index: 1000;
-}
-
 /* shrink header elements at lower widths */
 @media (max-width: 45em) {
+  
   header#title-block-header {
-    font-size: 90%;
+    margin-right: 140px;
+  }
+  
+  header#title-block-header h1 
+  {
+    font-size: 130%;
+  }
+
+  header#title-block-header p 
+  {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .inputForm {
+    transform: scale(0.9);
+    transform-origin: bottom left;
   }
 }
 
 @media (max-width: 34em) {
+  
   header#title-block-header {
+    margin-right: 120px;
+  }
+  
+  header#title-block-header h1 
+  {
+    font-size: 120%;
+  }
+
+  header#title-block-header p 
+  {
     font-size: 80%;
+    font-weight: bold;
   }
 }
+
 
 .embedcode {
   font-size: small;
