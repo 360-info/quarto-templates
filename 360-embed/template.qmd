@@ -22,10 +22,10 @@ format:
   aspect-ratio: 20 / 19
   min-height: 500px
   bg-colour: white
-  title: "Interactive: the changing fire season areas"
-  domain: https://bushfire-seasons.360visuals.org
+  title: "Interactive: title"
+  domain: https://example.360visuals.org
   fragments: state, month
-  path: /aus-fire-season/
+  path: /map/
   about: |
     Here's a place to **tell people** and [link to things](https://example.com)!
 ---

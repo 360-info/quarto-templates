@@ -90,18 +90,27 @@ header#title-block-header p {
 
 
 .embedcode {
-  font-size: small;
+  font-size: 60%;
   padding: 1em;
   border-inline-start: 1px solid #36a7e9;
   background-color: #36a7e911;
   color: #36a7e9;
 }
 
+.embedcode div.sourceCode {
+  margin: 0;
+}
+
 .embedcode pre {
   margin: 0;
 }
 
-.embedcode code {
+.embedcode pre > code.sourceCode {
   font-family: "JetBrains Mono", monospace;
   white-space: pre-wrap;
 }
+
+.embedcode pre .code-copy-button {
+
+}
+
