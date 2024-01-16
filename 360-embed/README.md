@@ -1,4 +1,4 @@
-# 360-embed Format
+# 360-embed format
 
 ## Installing
 
@@ -8,6 +8,6 @@ quarto use template 360-info/quarto-templates/360-embed
 
 This will install the extension and create an example qmd file that you can use as a starting place for your embed.
 
-## Example
+## Metadata
 
-Here is the source code for a minimal sample embed: [example.qmd](example.qmd). It has some information on the things you might want to consider customising.
+This template comes with supplementary files in the `_popups` folder. These generally don't need to be edited manually: customise the metadata under `360embed` in the main Quarto document, and the contents will be combined back in on render.
