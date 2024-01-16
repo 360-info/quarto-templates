@@ -21,11 +21,13 @@ format:
   type: map
   aspect-ratio: 20 / 19
   min-height: 500px
+  max-height: 893px
   bg-colour: white
   title: "Interactive: title"
+  repo: report-example
   domain: https://example.360visuals.org
+  path: /map/  
   fragments: state, month
-  path: /map/
   about: |
     Here's a place to **tell people** and [link to things](https://example.com)!
 ---
