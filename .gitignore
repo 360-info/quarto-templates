@@ -1,1 +1,7 @@
 .DS_Store
+
+360-embed/template.html
+360-embed/template_files/*
+
+360-analysis/template.html
+360-analysis/template_files/*
