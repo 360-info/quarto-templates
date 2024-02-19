@@ -110,18 +110,21 @@
 }
 
 .modalpanel {
-  padding: 13px;
+  /* padding: 13px; */
   
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0;
+  /* float: right;
+     position: absolute;
+     top: 0;
+     right: 0; */
   display: flex;
-  flex-flow: column;
-  align-items: end;
-  gap: 0.25rem;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 
   font-size: 80%;
+  
+  border-top: 1px solid #00000088;
+  color: #00000088;
 
   /* to maintain readability over a map */
   z-index: 1000;
@@ -135,34 +138,21 @@
   flex-flow: row;
   justify-content: end;
   gap: 0.75rem;
+  margin-block-start: 0.5em;
 }
 
-.modalpanel p {
-  margin: 0;
-  display: flex;
-  flex-flow: row;
-  gap: 1rem;
-  text-align: end;
-  hyphens: manual;
+.modalpanelcredits {
+  font-weight: normal;
 }
 
-/* shrink modal panel text at small widths */
-@media (max-width: 45em) {
-  .modalpanel p {
-    font-size: 80%;
-  }
-}
-
-@media (max-width: 34em) {
-  .modalpanel p {
-    font-size: 70%;
-  }
+.modalpanelcredits p {
+  margin-block-start: 0.5em;
 }
 
 .modalpanel a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #00000088;
   font-weight: bold;
 }
 

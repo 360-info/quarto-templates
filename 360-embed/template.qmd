@@ -30,8 +30,6 @@ format:
     Here's a place to **tell people** and [link to things](https://example.com)!
 ---
 
-{{< include _popups/_buttons.qmd >}}
-
 Add your embed content (chart, for example) here! The content from here to the just before the final `include` can be deleted.
 
 Before publishing, modify the frontmatter `360embed` to reflect the actual publication URL. This will allow the sharing buttons to work correctly.
@@ -40,5 +38,7 @@ Two other files you should check out, which are included here above and below:
 
 * [`_popup-dialogs.qmd`](./_popup-dialogs.qmd): this is the content for the share and information dialogs. The share dialog doesn't really need to be touched, but the information dialog is a space to add notes and ancillary explanations of the data.
 * [`_popup-buttons.qmd`](_popup-buttons.qmd): this controls the panel in the top-right. For the most part they do their own thing, but there is a small space for byline and data source that you may want to modify.
+
+{{< include _popups/_buttons.qmd >}}
 
 {{< include _popups/_dialogs.qmd >}}

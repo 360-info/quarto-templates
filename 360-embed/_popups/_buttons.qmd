@@ -1,5 +1,17 @@
 :::: {.modalpanel}
 
+::: {.modalpanelcredits}
+
+<!-- if there's room here, put credits on two lines:
+  * Editor names, 360info (hint: put &shy; in the middle of long names!)
+  * Data: ORG
+  (if there isn't room, put it in the ABOUT dialog) -->
+
+**Chart:** {{< meta 360embed.byline >}}<br>
+**Data:** {{< meta 360embed.data-source >}}
+
+:::
+
 ::: {.modalpanelitems}
 
 ```{=html}
@@ -54,14 +66,6 @@
 </script>
 ```
 :::
-
-<!-- if there's room here, put credits on two lines:
-  * Editor names, 360info (hint: put &shy; in the middle of long names!)
-  * Data: ORG
-  (if there isn't room, put it in the ABOUT dialog) -->
-{{< meta 360embed.byline >}}  
-
-Data: {{< meta 360embed.data-source >}}
 
 ::::
 
