@@ -12,6 +12,20 @@
 
 :::
 
+<!-- here's the EDITOR SHARE button. it's a quick way to copy the
+     embed code for editors and will only appear if ?edshare=true is in the
+     url (that way it'll appear on the newswire but not subsequent shares) -->
+
+```{=html}
+<div id="edshare">
+  <i id="edshare-icon" class="bi bi-clipboard2-plus-fill"></i>
+  <div>
+    <h4 id="edshare-title">Get this {{< meta 360embed.type >}}</h4>
+    <p id="edshare-description">Click to copy</p>
+  </div>
+</div>
+```
+
 ::: {.modalpanelitems}
 
 ```{=html}
@@ -69,20 +83,6 @@
 
 ::::
 
-<!-- finally, here's the EDITOR SHARE button. it's a quick way to copy the
-     embed code for editors and will only appear if ?edshare=true is in the
-     url (that way it'll appear on the newswire but not subsequent shares) -->
-
-```{=html}
-<div id="edshare">
-  <i id="edshare-icon" class="bi bi-clipboard2-plus-fill"></i>
-  <div>
-    <h4 id="edshare-title">Get this {{< meta 360embed.type >}}</h4>
-    <p id="edshare-description">Click to copy this into your story</p>
-  </div>
-</div>
-```
-
 <!-- editor share banner: enable if ?edshare is in the url -->
 ```{=html}
 <script>
@@ -134,9 +134,7 @@
 
         edshareDescription = document.querySelector("#edshare-description");
         edshareDescription.innerHTML =
-          `Paste this with the <i class="bi bi-code-square"></i> Embed button in your story editor.</br></br>
-          
-          Please remember to <strong>attribute 360info and our data sources.</strong>`
+          `Paste with <i class="bi bi-code-square"></i>`
 
         // button exit animation
         setTimeout(() => {  edshareBtn.classList.add("done"); }, 5000);
