@@ -17,7 +17,6 @@ header#title-block-header {
   
   color: black;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  font-weight: bold;
   
   /* uncomment following for an inset header */
   
@@ -49,10 +48,6 @@ header#title-block-header p {
 /* shrink header elements at lower widths */
 @media (max-width: 45em) {
   
-  header#title-block-header {
-    margin-right: 140px;
-  }
-  
   header#title-block-header h1 
   {
     font-size: 130%;
@@ -71,10 +66,6 @@ header#title-block-header p {
 }
 
 @media (max-width: 34em) {
-  
-  header#title-block-header {
-    margin-right: 120px;
-  }
   
   header#title-block-header h1 
   {
