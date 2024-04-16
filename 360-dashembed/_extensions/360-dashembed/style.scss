@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+:root {
+  --bslib-spacer: 0.5rem;
+}
+
+.quarto-dashboard {
+
+  #quarto-dashboard-header {
+    .navbar {
+      background-color: transparent;
+      color: black;
+
+      .quarto-dashboard-link {
+        color: black;
+      }
+
+      .navbar-brand-container {
+        flex-grow: 1;
+        margin-inline-end: 0;
+        
+        .navbar-title {
+          flex-grow: 1;
+          align-items: center;
+  
+          .navbar-title-text {
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+      
+          .navbar-author {
+            color: grey;
+            font-size: 55%;
+            line-height: 120%;
+            position: relative;
+            text-align: end;
+            margin-inline-start: auto;
+            margin-inline-end: 0;
+          }
+        }
+      }
+
+      
+    }
+
+  }
+
+  .bslib-page-fill {
+    .subtitle {
+      margin-inline-start: 0.5rem;
+    }
+    
+    .card {
+      --bs-card-spacer-y: 0.5rem;
+      --bs-card-spacer-x: 0.5rem;
+  
+      box-shadow: 0 2px 6px -1px rgba(0,0,0,.1)
+    }
+  }
+
+}  
+
