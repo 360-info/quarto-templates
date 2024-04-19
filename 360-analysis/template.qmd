@@ -17,6 +17,6 @@ library(here)
 
 ```{r}
 #| label: load-data
-here("data", "raw", example.csv") |>
+here("data", "raw", "example.csv") |>
   read_csv()
 ```
